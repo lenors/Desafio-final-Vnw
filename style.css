@@ -37,6 +37,9 @@ header{
     padding-left: 79vw;
    bottom: 53vh;
 }
-  body{
-      background-color:white ;
-  }
+.card{
+    position: relative;
+    bottom: 44vw;
+    z-index: 2;
+
+}
