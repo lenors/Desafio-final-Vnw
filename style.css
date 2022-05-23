@@ -1,6 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    border: none;
 }
+header{
+  
+ background-image: url(Header/Star\ Wars\ 1.png);
+ background-repeat: no-repeat;
+ border: solid red;
+ 
+}
+.kylo{
+    position: relative;
+    margin-left:10vw;
+    bottom: 13vh;
+}
+.star1{
+    position: relative;
+    top:48vh;
+    left: 20vw;
+    border: solid red;
+    width: 600px;
+}
+.wars2{
+    position:absolute;
+    left: 135vh;
+    top: 23.8vw;
+    border: solid pink;
+
+}
+.Crie{
+    position: relative;
+    padding-left: 79vw;
+   bottom: 53vh;
+}
+  body{
+      background-color:white ;
+  }
