@@ -132,3 +132,61 @@ bottom: 71vw;
 .imagem-lado img{
     width: 35vw;
 }
+.linha2{
+    position: relative;
+    bottom: 128vw;
+    border: 2px solid #707070; 
+    height: 1px;
+    width: 77.5vw;
+    left:11.5vw;
+}
+.estrutura{
+    display: flex;
+    position: relative;
+    bottom: 124vw;
+}
+
+.estrutura .menu{
+    display: flex;
+  height: 24vw;
+  width: 44vh;
+  border: solid red;
+}
+.estrutura .menu nav {
+    width: 400px;
+    height: 500px;
+}
+.estrutura .lord{
+   width: 100%;
+    margin-left: 5vw;
+    bottom: 50px;
+    border: solid black;
+}
+.estrutura h2{
+    color: black;
+    position: relative;
+    top: 1vw;
+   height: 50%;
+   width: 40%;
+   font-weight: 600;
+   font-size: 54px;
+   text-align-last: end;
+}
+.estrutura .menu2 li{
+    position: relative;
+    width: 120%;
+     right: 39vh;
+     top: 10vw;
+    border: solid;
+    align-items: center;
+    list-style: none;
+    font-size: 26px;
+    text-align: right;
+}
+.estrutura figure img{
+    border: solid yellow;
+    position: relative;
+    width: 350px;
+    right: 12vw;
+  
+}
