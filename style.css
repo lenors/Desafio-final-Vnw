@@ -17,7 +17,7 @@ height: 100%;
 .kylo{
     position: relative;
     margin-left:10vw;
-    bottom: 13vh;
+    bottom: 17vh;
   
 }
 .star1{
@@ -29,8 +29,8 @@ height: 100%;
 }
 .wars2{
     position:absolute;
-    left: 135vh;
-    top: 23.8vw;
+    left: 140vh;
+    top: 21.8vw;
   
 
 }
@@ -44,7 +44,7 @@ height: 100%;
     position: relative;
     bottom: 35vw;
     z-index: 2;
-    left: 14vw;
+    left: 15vw;
     width: 21vw;
  
 }
@@ -92,13 +92,13 @@ a:hover{
     bottom: 122.5vw;
     left: 95vh;
 }
-h2 .sobre{
+.sobre{
     position: relative;
-    width: 50%;
+    width: 60%;
     color: black;
     top: 1vw;
-    right: 6vw;
-    font-size: 40px;
+    right: 8vh;
+    font-size: 43px;
     font-family: 'Cabin', sans-serif;
     }
  .linha{
@@ -118,14 +118,14 @@ h2 .sobre{
 .battle2{
     display: flex;
     position: absolute;
-    left: 44vh;
+    left: 47vh;
    bottom: 6.6vw;
    flex-direction: row-reverse;
    align-items: flex-end;
 }
 .imagem-lado{
     position: relative;
-    bottom: 71vw;
+    bottom: 70vw;
 }
 .imagem-lado img{
     width: 35vw;
