@@ -201,6 +201,7 @@ span {
         background-image: url(Header/Star\ Wars\ 1.png);
         background-size: 600px;
         background-repeat: no-repeat;
+        border: solid;
        width:100%;
        height:100%;
      
@@ -226,7 +227,7 @@ span {
         position: absolute;
         top: 10vh;
         width: 40%;
-        left: 30vh;
+        left: 29.5vh;
         border: solid saddlebrown;
     }
 
@@ -287,8 +288,8 @@ span {
      bottom:18vh;
    }
    .download{
-      
        position: absolute;
+       border: solid;
        top: 24vh;
        left: 10vw;
        background-color: transparent;
@@ -297,14 +298,63 @@ span {
        color: white;
    }
   .battle{
-      position: absolute;
+      position: absolute;  
+      border: solid;
+      width: 40vh;
+      height: 35vw;
       top: 60vh;
-      left: 13vh;
+      left: 1vh;
       border: solid red;
       z-index: 3;
   }
-  .battle figure img{
-      width: 90%;
-      top: 5vw;
+  .sobre{
+      border: solid salmon;
+      width: 38%;
+    font-size: 22px;
+    top: 19vh;
+    left: 61.5vw;
+    font-weight: 400px;
+  }
+  .battle .star1{
+      position: absolute;
+     
+      top: 23vh;
+      left: 12vh;
+      width: 78%;
+      height: 40%;
+  }
+  .battle .star2{
+    position: absolute;
+ 
+    top: 28.5vh;
+    left: 12vh;
+    width: 78%;
+    height: 40%;
+}
+  .linha{
+      position: absolute;
+    border: solid black 1px;
+    width:35%;
+    top: 22vh;
+    left:29vh;
+  }
+  
+  
+  .battle figure{
+      width:90%;
+      border: solid;
+      left: 7vh;
+      bottom: 1vw;
+}
+.battle figure img{
+    width: 59%;    
+}
+.linha2{
+    position: absolute;
+    bottom: 4vh;
+    border: 2px solid #707070;
+    width: 76%;
+   
+    z-index: 3;
 }
 }
