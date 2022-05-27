@@ -245,7 +245,7 @@ span {
      position: absolute;
     bottom: 25vh;
      left: 35vh;
-     width: 15%;
+     width: 20%;
     }
     .card{
         position: absolute;
@@ -257,20 +257,53 @@ span {
    z-index: 2;
     }
     .imagem-lado img{
-        width: 330px;
+        width: 350px;
     }
     .card{
         position: absolute;
         top:30vh;
-        left: 28vh;
+        left: 23vh;
         z-index: 3;
     }
     .card img{
         width: 250px;
-
     }
-    .estrutura{
-        position: absolute;
-        top:200vh
-    }
+   .comece{
+       position: absolute;
+       width: 10vh;
+       height: 12vw;
+       left: 7vh;
+       top: 6vw;
+       font-size: 28px;
+       font-weight: 600;
+   }
+   .Baixe{
+       color: white;
+     width: 19vh;
+     height: 15vw;
+     font-size: 16px;
+     font-weight: 500;
+     left: 3vw;
+     bottom:18vh;
+   }
+   .download{
+      
+       position: absolute;
+       top: 24vh;
+       left: 10vw;
+       background-color: transparent;
+       border: 2px solid white;
+       border-radius: 4px;
+       color: white;
+   }
+  .battle{
+      position: absolute;
+      top: 60vh;
+      left: 13vh;
+      border: solid red;
+      z-index: 3;
+  }
+  .battle figure img{
+      width: 90%;
+      top: 5vw;
 }
