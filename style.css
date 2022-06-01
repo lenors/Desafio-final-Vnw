@@ -60,8 +60,7 @@ h2 {
   display: flex;
   margin-left: 14vw;
   top: 80vh;
-  border: solid ;
-  color: rgb(11, 152, 40);
+  color: white;
   z-index: 2;
   width: 10%;
   height: 12%;
@@ -297,46 +296,55 @@ transition: 1s;
   header {
     background-image: url(Header/Star\ Wars\ 1.png);
     position: absolute;
-    background-size: 100%;
+    background-size: 87%;
     background-repeat: no-repeat;
     border: solid pink;
     width: 500px;
-    height: 100%;
+    
   }
   .star1{
     border: solid salmon;
     position: relative;
     display: flex;
-    width: 30%;
-    top: 14vh;
+    width: 25%;
+    top: 12vh;
     left: 12vw;
   }
   .wars2{
     border: solid yellow;
     display: flex;
     position: absolute;
-    left:62vw;
-    top: 13.5vh;
-    width: 35%;
+    left:55vw;
+    top: 12vh;
+    width: 27%;
   }
   .kylo2{
     border: solid green;
     position: relative;
-    right: 2vw ;
-    bottom: 6vh;
-    width: 70%;
+    right:0vw;
+    bottom: 3vh;
+    width: 55%;
   } 
   .Crie{
     position: absolute;
-   height: 10vh;
+    width: 50%;
+    height: 79px;
     border: solid red;
-    top: 22vh;
-    z-index: 1;
+    top: 19vh;
+    z-index:1;
+    right: 16vw;
+  }
+  .Crie img{
+ position: relative;
+ right:10vw;
+width: 50px;
+
+
   }
   .card img{
     position: relative;
     top: 20vh;
-    margin-left: 30vw;
+    margin-left: 18vw;
     width: 250px;
     height: 300px;
   }
@@ -344,21 +352,70 @@ transition: 1s;
     color: white;
     position: absolute;
     border: solid gold;
-    top:40vh;
+    top:33vh;
     width: 29%;
     font-size: 28px;
-    left: 29vh;
+    left: 30vw;
     font-weight: 700;
   }
   .imagem-lado{
-    position: relative;
-    bottom: 52vh;
+    position: absolute;
+    bottom: 31vh;
     width: 300px;
     height: 350px;
     border: solid slateblue;
   }
   .imagem-lado img{
     width: 300px;
+  }
+  .Baixe{
+    border: solid rgb(212, 255, 0);
+    position: absolute;
+    color: white;
+    border: solid yellow;
+    width: 40%;
+    font-size: 15px;
+    top:47vh;
+    font-weight: 100;
+    left: 39vw;
+  }
+  .download{
+    position: absolute;
+    height: 35px;
+    top: 60vh;
+    margin-left: 20vw;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+  }
+ .battle{
+   position: relative;
+    border: solid rgb(254, 19, 19);
+    top: 29vh;
+   left: 22vw;
+    
+  }
+
+  .battle2 img{
+    position: relative;
+    width: 65%;
+    bottom: 50vh;
+    right:92vw;
+    border: solid pink;
+  } 
+  
+ 
+  /* .sobre{
+    width: 40%;
+    font-size: 22px;
+    margin-right: 222vw;
+  } */
+  .menu{
+    position: relative;
+  }
+  .estrutura{
+    position: absolute;
   }
 
 
