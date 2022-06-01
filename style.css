@@ -296,11 +296,10 @@ transition: 1s;
   header {
     background-image: url(Header/Star\ Wars\ 1.png);
     position: absolute;
-    background-size: 87%;
+    background-size: 97%;
     background-repeat: no-repeat;
     border: solid pink;
     width: 500px;
-    
   }
   .star1{
     border: solid salmon;
@@ -366,7 +365,7 @@ width: 50px;
     border: solid slateblue;
   }
   .imagem-lado img{
-    width: 300px;
+    width: 250px;
   }
   .Baixe{
     border: solid rgb(212, 255, 0);
@@ -391,26 +390,53 @@ width: 50px;
   }
  .battle{
    position: relative;
-    border: solid rgb(254, 19, 19);
-    top: 29vh;
-   left: 22vw;
-    
+   height: 300px;
+   width: 500px;
+    border: solid rgb(10, 9, 9);
+    top: 19vh;
+   left:0vw;
   }
+  .battle p{
+    font-size: 14px;
 
+  }
   .battle2 img{
     position: relative;
-    width: 65%;
-    bottom: 50vh;
-    right:92vw;
+    width:260px;
+    bottom: 30vh;
+    right:42vw;
     border: solid pink;
   } 
+   .battle .sobre{
+     margin-top:25px;
+    font-weight: 800;
+    margin-left: 40vw;
+    font-size: 17px;   
+  }
+  .battle .linha{
+    margin-top: 4px;
+    width: 30%;
+    margin-left: 46vw;
+    border: solid 1px 1 1 1px;
+  }
+  .battle .star1{
+    width: 65.3%;
+    margin-left: 18vw;
+    margin-top: 6vh;
+  }
   
- 
-  /* .sobre{
-    width: 40%;
-    font-size: 22px;
-    margin-right: 222vw;
-  } */
+  .linha2{
+    position: absolute;
+    bottom: -19vh;
+    margin-left: -47px;
+    width: 400px;
+    /* position: absolute;
+   margin-top: 90vh;
+   width: 370px;
+
+   border: 2px solid #707070; */
+  }
+  */
   .menu{
     position: relative;
   }
