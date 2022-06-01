@@ -293,161 +293,88 @@ transition: 1s;
   opacity: 1;
 }
 
-/* @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 500px) {
   header {
     background-image: url(Header/Star\ Wars\ 1.png);
+    position: absolute;
     background-size: 100%;
     background-repeat: no-repeat;
-    border: solid;
-    width: 450px;
+    border: solid pink;
+    width: 500px;
     height: 100%;
   }
-  .kylo2 {
-    position: absolute;
-    border: solid red;
-    width: 50%;
-    right: 35%;
-    z-index: 3;
-  }
-  .star1 {
-    position: absolute;
-    top: 12vh;
-    right: 15vw;
-    width: 2%;
-  }
-  
-  .wars2{
-    position: absolute;
-    top: 12vh;
-    left: 53vw;
-    border: solid royalblue;
-    width: 21%;
-    z-index: 2;
-  }
-  }
-  .Crie {
-    position: absolute;
-    top: 36vh;
-    left: 1vw;
-    border: solid saddlebrown;
-    width: 60%;
-  }
-  .Crie img {
-    position: absolute;
-    bottom: 25vh;
-    left: 35vh;
-    width: 20%;
-  }
-  .card {
-    position: absolute;
-    top: 200vh;
-  }
-  .imagem-lado {
-    position: absolute;
-    top: 21.3vh;
-    z-index: 2;
-  }
-  .imagem-lado img {
-    width: 350px;
-  }
-  .card {
-    position: absolute;
-    top: 30vh;
-    left: 23vh;
-    z-index: 3;
-  }
-  .card img {
-    width: 200px;
-  }
-  .comece {
-    position: absolute;
-    width: 12vh;
-    height: 12vw;
-    right:12vw;
-    font-size: 18px;
-    font-weight: 600;
-    z-index: 3;
-    color: black;
-    border: solid black;
-  }
-  .Baixe {
-    color: white;
-    width: 19vh;
-    height: 15vw;
-    font-size: 16px;
-    font-weight: 500;
-    left: 3vw;
-    bottom: 1vh;
-  }
-  .download {
-    position: absolute;
-    border: solid;
-    top: 24vh;
-    left: 10vw;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 4px;
-    color: white;
-  }
-  .battle {
-    position: absolute;
-    border: solid;
-    width: 40vh;
-    height: 35vw;
-    top: 60vh;
-    left: 1vh;
-    border: solid red;
-    z-index: 3;
-  }
-  .sobre {
+  .star1{
     border: solid salmon;
-    width: 38%;
-    font-size: 22px;
-    top: 19vh;
-    left: 61.5vw;
-    font-weight: 400px;
+    position: relative;
+    display: flex;
+    width: 30%;
+    top: 14vh;
+    left: 12vw;
   }
-  .battle .star1 {
+  .wars2{
+    border: solid yellow;
+    display: flex;
     position: absolute;
-
-    top: 23vh;
-    left: 12vh;
-    width: 78%;
-    height: 40%;
-  }
-  .battle .star2 {
-    position: absolute;
-
-    top: 28.5vh;
-    left: 12vh;
-    width: 78%;
-    height: 40%;
-  }
-  .linha {
-    position: absolute;
-    border: solid black 1px;
+    left:62vw;
+    top: 13.5vh;
     width: 35%;
-    top: 22vh;
-    left: 29vh;
   }
-
-  .battle figure {
-    width: 90%;
-    border: solid;
-    left: 7vh;
-    bottom: 1vw;
-  }
-  .battle figure img {
-    width: 59%;
-  }
-  .linha2 {
+  .kylo2{
+    border: solid green;
+    position: relative;
+    right: 2vw ;
+    bottom: 6vh;
+    width: 70%;
+  } 
+  .Crie{
     position: absolute;
-    bottom: 4vh;
-    border: 2px solid #707070;
-    width: 76%;
-    z-index: 3;
+   height: 10vh;
+    border: solid red;
+    top: 22vh;
+    z-index: 1;
   }
-  .estrutura{
-    border: solid;
-  } */
+  .card img{
+    position: relative;
+    top: 20vh;
+    margin-left: 30vw;
+    width: 250px;
+    height: 300px;
+  }
+  .comece{
+    color: white;
+    position: absolute;
+    border: solid gold;
+    top:40vh;
+    width: 29%;
+    font-size: 28px;
+    left: 29vh;
+    font-weight: 700;
+  }
+  .imagem-lado{
+    position: relative;
+    bottom: 52vh;
+    width: 300px;
+    height: 350px;
+    border: solid slateblue;
+  }
+  .imagem-lado img{
+    width: 300px;
+  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
