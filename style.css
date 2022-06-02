@@ -432,37 +432,60 @@ width: 50px;
     margin-left: -47px;
     width: 400px;
   }
-  }
+  
    .estrutura .estrutura2{
     width: 50%;
-    font-size: 32px;
+    font-size: 25px;
     margin-top: 84vh;
     border: solid red ;
-    font-weight: 700;
-    margin-right: 1vw;
+    font-weight: 500;
+    margin-left: -22vw;
   } 
   span{
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bold;
   }
   .estrutura .menu ul{
     position: relative;
-    margin-top: 90vh;
-    margin-left: 8vw;
+    margin-top: 87vh;
+    margin-left: 30vw;
     width: 58%;
   }
   .estrutura .menu li{
  font-size: 14px;
+ height: 18px;
+ font-weight: 300;
+ margin-left: 6vw;
+ font-size: 11px;
  font-weight: 300;
   }
   .estrutura .lord{
-    margin-top: 85vh;
+    margin-top: 84vh;
     margin-left: 1vw;
     width: 150px;
-    height: 200px;
+    height: 220px;
     border: solid salmon;
   }
-
+  .estrutura .rey img{
+   position: relative;
+   top: 85vh;
+    width: 150px;
+    height: 210px;
+    margin-left: -27vh;
+    z-index: 1;
+  }
+  main{
+    top: 137vh;
+  }
+ main h3{
+   display: flex;
+   font-size: 22px;
+   margin-right: -22vh;
+   border: solid black;
+ }
+  main .storm{
+    display: none;
+  }
 
 
 
