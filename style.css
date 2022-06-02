@@ -395,7 +395,7 @@ width: 50px;
    width: 500px;
     border: solid rgb(10, 9, 9);
     top: 13vh;
-   left:0vw;
+   left:-1vw;
   }
   .battle p{
     font-size: 14px;
@@ -479,10 +479,41 @@ width: 50px;
   }
  main h3{
    display: flex;
+   top: 8vh;
    font-size: 22px;
-   margin-right: -22vh;
+   margin-right: -24vh;
    border: solid black;
  }
+
+ main .atributos{
+   position: relative;
+  top: 14vh;
+ 
+ }
+ .forca img{
+   position: relative;
+   width: 400px;
+   left: 0vw;
+   z-index: 3;
+ }
+ main .animation{
+   position: absolute;
+   top: 31.5vh;
+   display: flex;
+   flex-direction: row;
+   border: solid rgb(115, 128, 0);
+
+ }
+
+
+
+
+
+
+
+
+
+
   main .storm{
     display: none;
   }
