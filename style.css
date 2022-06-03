@@ -318,6 +318,11 @@ main .normas{
   align-items: center;
  top: 225vh;
 }
+footer .footer-botoes .linha{
+  position: relative;
+  width: 100px;
+  left: 1vw;
+}
 .button-footer{
   border: solid green;
 }
@@ -347,15 +352,16 @@ padding-left: 13vw;
   border: solid red ;
   top: 420vh;
   left: 4vw;
-
+border: solid black;
  }
  footer .footer-botoes{
   position: absolute;
   display: flex;
  font-size: 25px;
-  left: 35vw;
+  left: 32vw;
   border: solid  yellow;
   height: 24vh;
+  border: solid black;
  }
  footer .footer-botoes p{
    font-size: 22px;
@@ -386,6 +392,20 @@ footer button:hover{
  }
  footer .button .linha:hover{
   box-shadow:inset red 150px 0px;
+ }
+ footer .footer-botoes .button-footer1 h3{
+   width:77% ;
+ }
+ footer h3{
+   text-align: center;
+   padding-bottom: 4vh;
+   border: solid black;
+ }
+ footer p{
+   text-align: center;
+   padding-top: 12px;
+   border: solid;
+
  }
 
 
@@ -609,9 +629,7 @@ width: 50px;
    margin-right: -24vh;
    border: solid black;
  }
-.att{
-  display: none;
-}
+
  main .atributos{
    position: relative;
   top: 14vh;
