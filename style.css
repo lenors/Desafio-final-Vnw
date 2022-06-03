@@ -163,23 +163,20 @@ a:hover {
   height: 24vw;
   width: 44vh;
 }
-.estrutura .menu nav {
-  width: 400px;
-  height: 500px;
-}
+
 .estrutura .lord {
   position: relative;
-  width: 100%;
+  width: 65%;
   margin-left: 12vw;
-  margin-top: 7vh;
+  margin-top: 6vh;
   z-index: 1;
 }
 .estrutura h2 {
   color: black;
   position: relative;
+  left: -4vw;
   top: 1vw;
-  height: 50%;
-  width: 40%;
+  width: 70%;
   font-weight: 600;
   font-size: 50px;
   text-align-last: end;
@@ -190,22 +187,31 @@ span {
 }
 .estrutura .menu2 li {
   position: relative;
-  width: 120%;
-  right: 39vh;
+  width: 500px;
+  height: 50%;
+  right: 30vw;
   top: 10vw;
   align-items: center;
   list-style: none;
-  font-size: 29px;
+  font-size: 32px;
   text-align: right;
   font-weight: 200;
+  border: solid red;
+  z-index: 1;
 }
-.estrutura figure img {
+.estrutura .rey img{
+  position: relative;
+  width: 350px;
+  top: 8vh;
+  z-index: 1;
+}
+/* .estrutura figure img {
   position: relative;
   width: 350px;
   right: 12vw;
   top: 3vw;
-  z-index: 4;
-}
+ 
+} */
 .menu2 li:hover {
   background-color: #d74430;
   cursor: pointer;
@@ -215,7 +221,7 @@ main {
   background: #2d2d2d;
   border: solid red;
   top: 217vh;
-  height: 229vw;
+  height: 120vw;
   width: 100%;
 }
 main h3 {
@@ -289,10 +295,118 @@ transition: 1s;
   width: 5vw;
   height: 5vh;
 }
+main .normas{
+  position: relative;
+  width:40% ;
+  font-size: 16px;
+  text-align: right;
+  margin-left: 48vw;
+  opacity: 2;
+  color: white;
+  border: solid pink;
+}
 .att:hover{
   opacity: 1;
 }
 
+.como{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+ top: 225vh;
+}
+.button-footer{
+  border: solid green;
+}
+footer .footer-botoes .button-footer1{
+  width: 30%;
+}
+footer .button-footer1 .baixe3{
+  width: 80%;
+  font-size: 17px;
+}
+footer .button-footer2 .selecione2{
+  width: 70%;
+  font-size: 17px;
+}
+footer .button-footer3 .conquiste2{
+  width: 60%;
+  font-size: 17px;
+}
+footer .button-footer2{
+  padding-left: 13vw;
+}
+footer .button-footer3{
+padding-left: 13vw;
+}
+ footer .imagen-footer{
+   position: absolute;
+  border: solid red ;
+  top: 420vh;
+  left: 4vw;
+
+ }
+ footer .footer-botoes{
+  position: absolute;
+  display: flex;
+ font-size: 25px;
+  left: 35vw;
+  border: solid  yellow;
+  height: 24vh;
+ }
+ footer .footer-botoes p{
+   font-size: 22px;
+   border: solid red ;
+   width: 30%;
+ }
+footer button{
+  position:relative;
+  width:12vw;
+  height:7vh;
+  color: white;
+  background-color:black;
+  border: solid;
+  transition:ease-in-out 1s;
+}
+footer button:hover{
+  box-shadow:inset red 150px 0px;
+}
+.button-footer1 button:hover ~ .linha{
+  box-shadow:inset red 150px 0px;
+}
+ footer .linha:hover{
+   position: relative;
+    left: 1vw;
+   width: 40%;
+   transition: ease-in-out 0.5s;
+   
+ }
+ footer .button .linha:hover{
+  box-shadow:inset red 150px 0px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Aqui começa o responsivo */
  @media only screen and (max-width: 500px) {
   header {
     background-image: url(Header/Star\ Wars\ 1.png);
@@ -300,7 +414,7 @@ transition: 1s;
     background-size: 100%;
     background-repeat: no-repeat;
     border: solid pink;
-    width: 500px;
+    width: 490px;
   }
   .star1{
     border: solid salmon;
@@ -338,8 +452,6 @@ transition: 1s;
  position: relative;
  right:10vw;
 width: 50px;
-
-
   }
   .card img{
     position: relative;
@@ -391,8 +503,8 @@ width: 50px;
   }
  .battle{
    position: relative;
-   height: 300px;
-   width: 500px;
+   height: 280px;
+   width: 490px;
     border: solid rgb(10, 9, 9);
     top: 13vh;
    left:-1vw;
@@ -402,17 +514,20 @@ width: 50px;
 
   }
   .battle2 img{
-    position: relative;
-    width:250px;
-    bottom: 30.5vh;
-    right:40vw;
+    position: absolute;
+    width:255px;
+    bottom: 27.5vh;
+    right:-12vw;
     border: solid pink;
+    
   } 
    .battle .sobre{
      margin-top:4vh;
     font-weight: 800;
     margin-left: 40vw;
     font-size: 17px;   
+    border: solid red;
+    width: 30%;
   }
   .battle .linha{
     margin-top: 2px;
@@ -434,13 +549,21 @@ width: 50px;
   }
   
    .estrutura .estrutura2{
-    width: 50%;
-    font-size: 25px;
-    margin-top: 84vh;
+    width: 40%;
+    font-size: 22px;
+    margin-top: 86vh;
     border: solid red ;
     font-weight: 500;
-    margin-left: -22vw;
+    margin-left: 2vw;
   } 
+  .estrutura .menu2{
+    position: absolute;
+    top: 1vh;
+  width: 200px;
+  height: 21%;
+  left: -50vw;
+  z-index: 1;
+  }
   span{
     font-size: 26px;
     font-weight: bold;
@@ -476,6 +599,8 @@ width: 50px;
   }
   main{
     top: 137vh;
+    width: 98%;
+    height: 1900px;
   }
  main h3{
    display: flex;
@@ -484,7 +609,9 @@ width: 50px;
    margin-right: -24vh;
    border: solid black;
  }
-
+.att{
+  display: none;
+}
  main .atributos{
    position: relative;
   top: 14vh;
@@ -504,22 +631,51 @@ width: 50px;
    border: solid rgb(115, 128, 0);
 
  }
-
-
-
-
-
-
-
-
-
-
-  main .storm{
-    display: none;
+ main .storm img{
+     position: absolute;
+    top: 87vh;
+    border: solid aqua;
+    width: 500px;
+    right: 0vw;
   }
-
-
-
+main .storm .normas{
+  color: white;
+  width: 100%;
+  position: relative;
+  top: 126vh;
+  right: 48vw;
+  font-size: 13px;
+}
+footer .imagen-footer{
+  position: relative;
+  width: 70%;
+  top: 374vh;
+  left: -27vw;
+}
+footer .footer-botoes{
+  display: flex;
+flex-direction: column;
+top: 370vh;
+width: 62%;
+}
+.footer-botoes button{
+width: 100%;
+}
+footer .button-footer1 button{
+  width: 260%;
+}
+footer .button-footer1{
+  margin-left: 12vw;
+}
+footer .footer-botoes .baixe3{
+  width: 170%;
+}
+footer .footer-botoes .linha{
+  width: 20%;
+}
+p{
+  border: solid #707070;
+}
 
 
 
